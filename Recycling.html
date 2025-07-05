@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Recycling Portal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f5f1;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #4CAF50, #2E7D32);
+      padding: 1.5rem;
+      text-align: center;
+      color: white;
+    }
+    nav {
+      background-color: #388E3C;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.8rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      padding: 3rem;
+      background: url('https://images.unsplash.com/photo-1589916527926-3e42564a8718') no-repeat center center/cover;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+      text-align: center;
+    }
+    .section {
+      padding: 2rem 4rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #2E7D32;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      .section {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Advanced Recycling Portal</h1>
+    <p>Innovate. Educate. Sustain.</p>
+  </header>
+
+  <nav>
+    <a href="#why">Why Recycle</a>
+    <a href="#types">Types</a>
+    <a href="#how">How to Recycle</a>
+    <a href="#tech">Tech & Future</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Join the Movement to Protect Our Planet</h2>
+    <p>Discover the science, solutions, and systems behind recycling</p>
+  </div>
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="download.jpeg" style="max-width: 100%; height: auto;">
+</div>
+
+  <section class="section" id="why">
+    <h2>Why Recycling Matters</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Environmental Impact</h3>
+        <p>Recycling reduces landfill waste, conserves natural resources, and minimizes pollution in our air and oceans.</p>
+      </div>
+      <div class="card">
+        <h3>Economic Benefits</h3>
+        <p>Recycling industries create jobs, drive sustainable growth, and reduce costs of raw materials.</p>
+      </div>
+      <div class="card">
+        <h3>Climate Change</h3>
+        <p>Lowering emissions through waste reduction is a crucial step toward fighting climate change.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="types">
+    <h2>Types of Recyclable Materials</h2>
+    <ul>
+      <li><strong>Plastics:</strong> PET, HDPE, LDPE, etc.</li>
+      <li><strong>Paper:</strong> Newspaper, cardboard, office paper.</li>
+      <li><strong>Metals:</strong> Aluminum, steel, tin.</li>
+      <li><strong>Glass:</strong> Bottles, jars, and more.</li>
+      <li><strong>Electronics:</strong> E-waste and batteries.</li>
+    </ul>
+  </section>
+
+  <section class="section" id="how">
+    <h2>How to Recycle Properly</h2>
+    <ol>
+      <li>Clean items before recycling.</li>
+      <li>Separate materials as per local guidelines.</li>
+      <li>Know your area’s rules—some items need special handling.</li>
+      <li>Use designated drop-off centers for e-waste and hazardous materials.</li>
+    </ol>
+  </section>
+
+  <section class="section" id="tech">
+    <h2>The Future of Recycling</h2>
+    <p>Technological innovations are transforming how we recycle:</p>
+    <ul>
+      <li>AI sorting systems in recycling facilities</li>
+      <li>Blockchain for waste tracking</li>
+      <li>Biodegradable materials and circular economy design</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Advanced Recycling Initiative | Designed for a better tomorrow.</p>
+  </footer>
+</body>
+</html>
